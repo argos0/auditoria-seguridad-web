@@ -56,19 +56,19 @@ Auditoría de seguridad web completa realizada a un sitio WordPress de un client
 ## Metodología
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              OWASP Testing Guide v4.2                   │
-├──────────┬──────────┬──────────┬──────────┬────────────┤
-│  FASE 1  │  FASE 2  │  FASE 3  │  FASE 4  │   FASE 5  │
-│Reconoci- │ Escaneo  │Análisis  │Remedia-  │Verificación│
-│ miento   │ Activo   │  Vulns   │  ción    │            │
-│ Pasivo   │          │          │          │            │
-├──────────┼──────────┼──────────┼──────────┼────────────┤
-│Wappalyzer│  Nmap    │ WPScan   │ Snippets │  WPScan   │
-│ WhatWeb  │  curl    │ curl API │Wordfence │   curl    │
-│  WHOIS   │ SSLScan  │ Headers  │.htaccess │    dig    │
-│   DIG    │          │          │  DNS     │           │
-└──────────┴──────────┴──────────┴──────────┴────────────┘
+
+              OWASP Testing Guide v4.2                   
+
+  FASE 1                       FASE 2        FASE 3           FASE 4           FASE 5  
+Reconocimiento                Escaneo        Análisis        Remediación      Verificación
+Pasivo                        Activo         Vulns                  
+                              
+
+Wappalyzer                     Nmap            WPScan           Snippets             WPScan   
+ WhatWeb                       curl            curl API          Wordfence           curl    
+ WHOIS                        SSLScan          Headers           .htaccess            dig    
+   DIG                                           DNS               
+
 ```
 
 ---
