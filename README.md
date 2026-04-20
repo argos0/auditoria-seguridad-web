@@ -1,4 +1,4 @@
-# 🛡️ Auditoría de Seguridad Web — WordPress Site
+#  Auditoría de Seguridad Web — WordPress Site
 ### Proyecto de Portafolio | Ethical Hacking & Penetration Testing
 
 ---
@@ -11,30 +11,30 @@
 
 ---
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Auditoría de seguridad web completa realizada a un sitio WordPress de un cliente real con autorización expresa. El proyecto siguió las fases estándar de la metodología **OWASP Testing Guide v4.2** desde el reconocimiento inicial hasta la verificación de correcciones.
 
-> ⚠️ **Nota ética:** Este proyecto fue realizado con autorización escrita del propietario del sitio. Todos los datos identificativos del cliente han sido anonimizados para proteger su privacidad y confidencialidad, conforme a las buenas prácticas de la industria de ciberseguridad.
+>  **Nota ética:** Este proyecto fue realizado con autorización escrita del propietario del sitio. Todos los datos identificativos del cliente han sido anonimizados para proteger su privacidad y confidencialidad, conforme a las buenas prácticas de la industria de ciberseguridad.
 
 ---
 
-## 🎯 Resultados Principales
+##  Resultados Principales
 
 | Métrica | Antes | Después |
 |---------|-------|---------|
-| Vulnerabilidades **Críticas** | 🔴 3 | ✅ 0 |
-| Vulnerabilidades **Altas** | 🟠 8 | ✅ 0 |
-| Vulnerabilidades **Medias** | 🟡 9 | ✅ Reducidas |
-| API REST usuarios expuesta | ❌ Sí | ✅ Bloqueada |
-| Cabeceras HTTP seguridad | ❌ 3 faltantes | ✅ 5 configuradas |
-| Firewall WAF | ❌ No tenía | ✅ Activo |
-| Malware detectado | ⚠️ Sin verificar | ✅ Sitio limpio |
-| CVEs activos en plugins | ❌ 40+ | ✅ 0 |
+| Vulnerabilidades **Críticas** |  3 |  0 |
+| Vulnerabilidades **Altas** |  8 |  0 |
+| Vulnerabilidades **Medias** |  9 |  Reducidas |
+| API REST usuarios expuesta |  Sí |  Bloqueada |
+| Cabeceras HTTP seguridad |  3 faltantes |  5 configuradas |
+| Firewall WAF |  No tenía |  Activo |
+| Malware detectado |  Sin verificar |  Sitio limpio |
+| CVEs activos en plugins |  40+ |  0 |
 
 ---
 
-## 🔧 Herramientas Utilizadas
+##  Herramientas Utilizadas
 
 | Herramienta | Propósito | Fase |
 |-------------|-----------|------|
@@ -53,7 +53,7 @@ Auditoría de seguridad web completa realizada a un sitio WordPress de un client
 
 ---
 
-## 📐 Metodología
+## Metodología
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -73,9 +73,9 @@ Auditoría de seguridad web completa realizada a un sitio WordPress de un client
 
 ---
 
-## 🚨 Hallazgos Principales
+##  Hallazgos Principales
 
-### 🔴 Críticos (3 encontrados → 0 después)
+###  Críticos (3 encontrados → 0 después)
 
 **1. Exposición de usuario administrador via API REST**
 - La API REST de WordPress devolvía nombre de usuario, ID y metadatos del administrador sin autenticación
@@ -92,7 +92,7 @@ Auditoría de seguridad web completa realizada a un sitio WordPress de un client
 - Vector de ataque: acceso directo a wp-admin sin credenciales
 - Corrección: Actualización del plugin + instalación de Wordfence
 
-### 🟠 Altos (8 encontrados → 0 después)
+###  Altos (8 encontrados → 0 después)
 
 - Sin registros SPF/DMARC/DKIM → Email Spoofing posible
 - Falta `X-Frame-Options` → Clickjacking
@@ -169,7 +169,7 @@ Auditoría de seguridad web completa realizada a un sitio WordPress de un client
 
 ---
 
-## 📊 Tecnologías del Sitio Auditado
+##  Tecnologías del Sitio Auditado
 
 - **CMS:** WordPress 6.9.4
 - **Constructor:** Elementor 4.0.0
@@ -181,7 +181,7 @@ Auditoría de seguridad web completa realizada a un sitio WordPress de un client
 
 ---
 
-## 🎓 Aprendizajes del Proyecto
+##  Aprendizajes del Proyecto
 
 - Aplicación práctica de la metodología OWASP en un entorno real
 - Uso profesional de herramientas de seguridad en Kali Linux
@@ -193,16 +193,16 @@ Auditoría de seguridad web completa realizada a un sitio WordPress de un client
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 **David A.**
 Ingeniro en sistemas | Autodidacta en Ciberseguridad 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?style=flat&logo=linkedin)]([https://linkedin.com/in/tu-perfil](https://www.linkedin.com/in/david-alvarez-022108361/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/david-alvarez-022108361/)
 
 ---
 
-## ⚖️ Aviso Legal
+##  Aviso Legal
 
 Este proyecto fue realizado con **autorización expresa y escrita** del propietario del sitio web auditado. Toda la información sensible del cliente ha sido anonimizada. Este repositorio tiene fines exclusivamente educativos y de portafolio profesional.
 
