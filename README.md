@@ -195,10 +195,10 @@ Auditoría de seguridad web completa realizada a un sitio WordPress de un client
 
 ## 👨‍💻 Autor
 
-**David**
-Estudiante de Ciberseguridad | Querétaro, México
+**David A.**
+Ingeniro en sistemas | Autodidacta en Ciberseguridad 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?style=flat&logo=linkedin)](https://linkedin.com/in/tu-perfil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?style=flat&logo=linkedin)]([https://linkedin.com/in/tu-perfil](https://www.linkedin.com/in/david-alvarez-022108361/))
 
 ---
 
